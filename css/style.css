@@ -118,11 +118,33 @@ body{
     margin-top: 15px;
 }    
 .about-descript h1{
-    color: var(--text);
+    color: var(--primary);
     font-size: 32px;
     text-align: center;
-    
+    margin-top: 10px;
 }
+.main-about{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 80px 15px 80px;
+}
+.parrafo {
+    color: var(--text);
+    font-family: "Lato", sans-serif;
+    font-size: var(--md);
+    padding: 10px 15px 10px 15px;
+    text-align: justify;
+}
+.about-descript{
+    width: 100%;
+    height: 100%;
+    background-color: var(--block);
+    border: 1px solid var(--text); 
+    /* opacity: 8%; */
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
 /*============ END ABOUT =============*/ 
 
 /*============ START PROJECTS =============*/ 
@@ -222,4 +244,30 @@ body{
 .contact-img img, .contact-text h2{
     margin: 5px;
 }
+/*END CONTACT*/
 
+/*START FOOTER*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    background-color: var(--secondary);
+    justify-content: center;
+}
+.footer-creator strong{
+    color: var(--primary);
+}
+.footer-creator, .footer-derechos p{
+    font-size: var(--lg);
+    color: var(--text);
+}
+.footer-creator, .footer-derechos{
+    margin-top: 40px;
+}
+.footer-creator{
+    margin-right: 5px;
+} 
+.footer-derechos{
+    margin-left: 5px;
+}
